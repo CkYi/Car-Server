@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+<hibernate-mapping package="com.pojo">  
+    <class name="com.pojo.Car_Parameter" table="parameter_table">
+        <id name="id">  
+            <generator class="native"></generator><!--采用主键自增长方式--> 
+        </id>
+        <property name="date"></property>  
+        <property name="btaddr"></property>  
+        <property name="phonenum"></property>  
+        <property name="status"></property>
+        
+        <property name="oil_situation"></property>
+        <property name="calculate_load"></property>
+        <property name="coolant"></property>  
+        <property name="short_oil_update_1"></property>
+        <property name="long_oil_update_1"></property>
+        <property name="short_oil_update_2"></property>
+        <property name="long_oil_update_2"></property>
+        <property name="oil_press"></property>
+        <property name="tank_value"></property>  
+        <property name="rpm"></property>  
+        <property name="speed"></property>  
+        <property name="ignition"></property>
+        <property name="oiltank_air_temp"></property>
+        <property name="air_speed"></property>  
+        <property name="throttle"></property>
+        <property name="second_air"></property>
+        <property name="oxygen_sensor"></property>
+        <property name="oxygen_sensor_volt1_channel1"></property>  
+        <property name="oxygen_sensor_volt2_channel1"></property>
+        <property name="oxygen_sensor_volt3_channel1"></property>
+        <property name="oxygen_sensor_volt4_channel1"></property>
+        <property name="oxygen_sensor_volt1_channel2"></property>
+        <property name="oxygen_sensor_volt2_channel2"></property>
+        <property name="oxygen_sensor_volt3_channel2"></property>
+        <property name="oxygen_sensor_volt4_channel2"></property>
+        <property name="en_startruntime"></property>
+        <property name="oil_pressure_manifold"></property>
+        <property name="oil_pressure_sprinkle"></property>
+        <property name="oil_lvl"></property>
+        <property name="steam_press"></property>
+        <property name="pressure"></property>
+        <property name="catalyzer_channel1_sensor1"></property>
+        <property name="catalyzer_channel2_sensor1"></property>
+        <property name="catalyzer_channel1_sensor2"></property>
+        <property name="catalyzer_channel2_sensor2"></property>      
+        <property name="ctrl_module_voltage"></property>
+        <property name="abs_load"></property>
+        <property name="equivalent"></property>
+        <property name="relative_throttle"></property>
+        <property name="envi_oidtank_press"></property>
+        <property name="absolute_throttle_B"></property>
+        <property name="absolute_throttle_A"></property>
+        <property name="accelarate_D"></property>
+        <property name="accelarate_E"></property>
+        <property name="accelarate_F"></property>
+        <property name="throttle_control"></property>
+        <property name="ethanol_percent"></property>
+        <property name="absolute_oil_pressure"></property>
+       	<property name="relative_acc_position"></property>
+        <property name="en_oil_temp"></property>
+        <property name="oil_cos"></property>
+       	<property name="require_torque"></property>
+       	<property name="practical_torque"></property>
+       	<property name="refer_torque"></property>
+    </class>  
+</hibernate-mapping>
